@@ -9,9 +9,9 @@ export default function Footer() {
 			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 				<div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 					<div>
-						<h3 className="text-lg font-semibold mb-4">Jhon Doe</h3>
+						<h3 className="text-lg font-semibold mb-4">Akash Dhotre</h3>
 						<p className="text-sm text-muted-foreground mb-4">
-							M.Sc. Chemistry Student passionate about research and innovation in chemical sciences.
+							PhD Candidate passionate about research and innovation in mechnical engineering.
 						</p>
 						<div className="flex space-x-4">
 							<Link
@@ -100,20 +100,21 @@ export default function Footer() {
 					<div>
 						<h3 className="text-lg font-semibold mb-4">Contact</h3>
 						<p className="text-sm text-muted-foreground mb-2">
-							West Bengal, India
+							T.E Murphy Engine Research Laboratory<br /> 2811 Weeks Ave SE<br /> Minneapolis, MN 55455
+							
 						</p>
 						<p className="text-sm text-muted-foreground mb-2">
-							Jhon Doe.karmaker@example.com
+							dhotr002@umn.edu
 						</p>
 						<p className="text-sm text-muted-foreground">
-							+91 98765 43210
+							Ph: +1 (612)-391-6170 
 						</p>
 					</div>
 				</div>
 
 				<div className="mt-8 pt-8 border-t border-muted text-center">
 					<p className="text-sm text-muted-foreground">
-						© {currentYear} Jhon Doe. All rights reserved.
+						© {currentYear} Akash Dhotre. All rights reserved.
 					</p>
 				</div>
 			</div>

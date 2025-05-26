@@ -11,9 +11,9 @@ import LoadingAnimation from '@/components/common/LoadingAnimation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-	title: 'Jhon Doe | M.Sc. Chemistry Student',
-	description: 'Personal website of Jhon Doe, an M.Sc. Chemistry student from West Bengal, India, showcasing academic achievements, research projects, and professional aspirations.',
-	keywords: 'Jhon Doe, Chemistry, Researcher, West Bengal, India, M.Sc. Chemistry, Chemical Research, Student Portfolio',
+	title: 'Akash Dhotre | PhD Candidate',
+	description: 'Personal website of Akash Dhotre showcasing academic achievements, research projects, and professional aspirations.',
+	keywords: 'Akash Dhotre, PhD, Researcher, Mechanical Engineering, Combustion, Portfolio',
 };
 
 export default function RootLayout({
@@ -23,7 +23,9 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en" suppressHydrationWarning>
-			<link rel="shortcut icon" href="./flask.png" type="image/x-icon" />
+			<head>
+			<link rel="shortcut icon" href="/flask.png" type="image/x-icon" />
+			</head>
 			<body className={inter.className}>
 				<ThemeProvider
 					attribute="class"

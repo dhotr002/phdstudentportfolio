@@ -8,8 +8,8 @@ import Link from 'next/link';
 import { contactInfo } from '@/lib/constants';
 
 export const metadata: Metadata = {
-	title: 'Contact | Jhon Doe',
-	description: 'Get in touch with Jhon Doe, an M.Sc. Chemistry student from West Bengal, India, for research collaborations, academic inquiries, or professional opportunities.',
+	title: 'Contact | Akash Dhotre',
+	description: 'Get in touch with Akash Dhotre for research collaborations, academic inquiries, or professional opportunities.',
 };
 
 export default function ContactPage() {

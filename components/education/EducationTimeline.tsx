@@ -2,46 +2,46 @@
 
 import { motion } from 'framer-motion';
 import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
-import { cn } from '@/lib/utils';
+// import { cn } from '@/lib/utils';
 
 const educationData = [
   {
     id: 1,
-    degree: 'M.Sc. in Chemistry',
-    institution: 'University of Calcutta',
-    location: 'Kolkata, West Bengal',
-    period: '2022-2024',
-    description: 'Specializing in Organic Chemistry with focus on sustainable synthesis methods. Conducted research on eco-friendly catalysts for organic transformations.',
+    degree: 'PhD in Mechanical Engineering',
+    institution: 'University of Minnesota',
+    location: 'Minneapolis, USA',
+    period: 'Jan 2021 - Present',
+    description: 'Specializing in thermal sciences, focusing on advanced combustion technologies and low-temperature plasma processes.',
     achievements: [
-      'University Gold Medalist',
-      'Published research paper in Journal of Organic Chemistry',
-      'Presented at National Chemistry Conference 2023'
+      'List achievements here',
+      'List achievements here',
+      'List achievements here'
     ]
   },
   {
     id: 2,
-    degree: 'B.Sc. in Chemistry (Honours)',
-    institution: 'Jadavpur University',
-    location: 'Kolkata, West Bengal',
-    period: '2019-2022',
-    description: 'Comprehensive foundation in chemical principles with laboratory experience in analytical, organic, inorganic, and physical chemistry.',
+    degree: 'MS in Mechanical Engineering',
+    institution: 'University of Minnesota',
+    location: 'Minneapolis, USA',
+    period: 'Sep 2018 - Dec 2020',
+    description: 'Specialized in fluid mechanics and thermodynamics, with a focus on hydrodynamic instabilities in a viscous jet.',
     achievements: [
-      'Graduated with First Class Honours',
-      'Department Merit Scholarship recipient',
-      'Undergraduate research project on green chemistry'
+      'List achievements here',
+      'List achievements here',
+      'List achievements here'
     ]
   },
   {
     id: 3,
-    degree: 'Higher Secondary Education',
-    institution: 'West Bengal Council of Higher Secondary Education',
-    location: 'West Bengal',
-    period: '2017-2019',
-    description: 'Focused on Science stream with specialization in Chemistry, Physics, and Mathematics.',
+    degree: 'BE in Mechanical Engineering',
+    institution: 'University of Pune',
+    location: 'Pune, India',
+    period: '2014 - 2018',
+    description: 'Focused on computational fluid dynamics and heat transfer.',
     achievements: [
-      'Scored 95% in Chemistry',
-      'State-level Science Olympiad finalist',
-      'Best Science Student Award'
+      'List achievements here',
+      'List achievements here',
+      'List achievements here'
     ]
   }
 ];

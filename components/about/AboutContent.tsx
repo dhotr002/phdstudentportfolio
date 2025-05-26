@@ -16,16 +16,16 @@ export default function AboutContent() {
 			>
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="https://images.pexels.com/photos/3772511/pexels-photo-3772511.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-						alt="Jhon Doe in lab"
+						src="https://media.licdn.com/dms/image/v2/D4D03AQGlBYa-32mWAQ/profile-displayphoto-shrink_800_800/B4DZaDo9sEGcAg-/0/1745965276185?e=1753315200&v=beta&t=ioDPR1EBmqt9Zylp_e1zpN97_c1JvR4M6JYAcosvldM"
+						alt="Akash Dhotre in lab"
 						width={600}
 						height={800}
 						className="object-cover w-full h-[500px]"
 					/>
 					<div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/30 to-transparent"></div>
 					<div className="absolute bottom-0 left-0 p-6">
-						<h3 className="text-xl font-semibold mb-2">Jhon Doe</h3>
-						<p className="text-muted-foreground">M.Sc. Chemistry Student</p>
+						<h3 className="text-xl font-semibold mb-2">Akash Dhotre</h3>
+						<p className="text-muted-foreground">PhD Candidate in Mechanical Engineering</p>
 					</div>
 				</div>
 			</motion.div>
@@ -40,17 +40,17 @@ export default function AboutContent() {
 				<h2 className="text-3xl font-bold mb-6">About Me</h2>
 
 				<p className="text-muted-foreground">
-					Hello! I'm Jhon Doe, a passionate M.Sc. Chemistry student from West Bengal, India, with a deep interest in research and innovation in chemical sciences. My academic journey has been driven by curiosity and a desire to contribute to sustainable solutions through chemistry.
+					I am a Ph.D. candidate at the Department of Mechanical Engineering, University of Minnesota, Twin Cities, working in the T.E. Murphy Engine Research Laboratory (MERL). My research focuses on advancing clean energy solutions by studying complex reacting flows, synthetic/carbon-neutral fuels, and energy storage technologies. 
 				</p>
 
 				<p className="text-muted-foreground">
-					During my studies, I've focused on organic chemistry and material science, working on projects that aim to develop eco-friendly alternatives to conventional chemical processes. I believe in the power of chemistry to address real-world challenges.
+					I utilize both experimental and numerical techniques to investigate the physics and kinetics of reactive flows to develop a deeper understanding of advanced combustion systems and low-temperature plasma processes, contributing to cleaner and more efficient energy generation technologies.
 				</p>
 
 				<div className="grid grid-cols-2 gap-4 my-8">
 					<div className="flex flex-col items-center bg-card p-4 rounded-lg shadow-sm">
 						<Flask className="h-10 w-10 text-chart-1 mb-2" />
-						<h3 className="font-medium">Research</h3>
+						<h3 className="font-medium">Research</h3> 
 					</div>
 					<div className="flex flex-col items-center bg-card p-4 rounded-lg shadow-sm">
 						<Book className="h-10 w-10 text-chart-2 mb-2" />
@@ -67,7 +67,7 @@ export default function AboutContent() {
 				</div>
 
 				<p className="text-muted-foreground">
-					I'm currently seeking opportunities to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of chemistry.
+					I'm currently seeking opportunities to apply my knowledge and skills in a professional research environment where I can continue to grow and make meaningful contributions to the field of thermal sciences and combustion.
 				</p>
 
 				<CVButton />

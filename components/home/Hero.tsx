@@ -47,21 +47,21 @@ export default function Hero() {
           variants={item}
           className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight"
         >
-          Jhon Doe
+          Akash Dhotre
         </motion.h1>
 
         <motion.h2
           variants={item}
           className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8"
         >
-          M.Sc. Chemistry Student <span className="hidden md:inline">|</span><br className="md:hidden" /> West Bengal, India
+          PhD Candidate <span className="hidden md:inline">|</span><br className="md:hidden" /> University of Minnesota
         </motion.h2>
 
         <motion.p
           variants={item}
           className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto"
         >
-          Exploring the fascinating world of chemical sciences with a focus on sustainable research and innovative solutions.
+          Catchy one-liner.
         </motion.p>
 
         <motion.div

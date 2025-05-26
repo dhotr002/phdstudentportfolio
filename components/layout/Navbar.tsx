@@ -8,10 +8,13 @@ import { cn } from '@/lib/utils';
 
 const navigationItems = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
+  { name: 'About Me', href: '/about' },
   { name: 'Education', href: '/education' },
-  { name: 'Projects', href: '/projects' },
-  { name: 'Certificates', href: '/certificates' },
+  { name: 'Research', href: '/projects' },
+  { name: 'Teaching', href: '/teaching' },
+  { name: 'Publications', href: '/publications' },
+  { name: 'Awards', href: '/certificates' },
+  { name: 'Service', href: '/service' },
   { name: 'Contact', href: '/contact' },
 ];
 
@@ -50,7 +53,7 @@ export default function Navbar() {
               href="/"
               className="text-xl md:text-2xl font-bold text-primary"
             >
-              Jhon Doe
+              Akash Dhotre
             </Link>
           </div>
 

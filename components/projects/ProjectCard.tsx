@@ -4,11 +4,12 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ExternalLink, Calendar, Users } from 'lucide-react';
-import { cn } from '@/lib/utils';
+// import { cn } from '@/lib/utils';
 
 interface ProjectCardProps {
   title: string;
-  description: string;
+  description?: string;
+  highlights?: string[];
   imageUrl: string;
   date: string;
   collaborators: string[];
@@ -19,6 +20,7 @@ interface ProjectCardProps {
 export default function ProjectCard({
   title,
   description,
+  highlights,
   imageUrl,
   date,
   collaborators,
@@ -60,7 +62,15 @@ export default function ProjectCard({
             </div>
           </div>
           
-          <p className="text-muted-foreground">{description}</p>
+          {highlights ? (
+            <ul className="list-disc list-inside text-muted-foreground space-y-1">
+              {highlights.map((point, i) => (
+                <li key={i}>{point}</li>
+              ))}
+            </ul>
+          ) : (
+            <p className="text-muted-foreground">{description}</p>
+          )}
         </div>
         
         {link && (
