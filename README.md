@@ -1,4 +1,4 @@
-# 🧪 Chemistry Portfolio
+# 🧪 MechE Portfolio
 
 <div align="center">
 
