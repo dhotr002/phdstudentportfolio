@@ -35,6 +35,14 @@ export default function ProjectCard({
       viewport={{ once: true, margin: "-100px" }}
       className="group overflow-hidden rounded-lg border bg-card shadow-sm hover:shadow-md transition-shadow"
     >
+      {/* <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.8 }}
+      viewport={{ once: true, margin: "-100px" }}
+      className="group overflow-hidden rounded-lg border bg-card shadow-sm hover:shadow-md transition-shadow"
+      > */}
+
       <div className="relative h-48 overflow-hidden">
         <Image
           src={imageUrl}

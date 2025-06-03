@@ -7,7 +7,7 @@ export const projects = [
 			"Developed and implemented a nonlinear feedforward controller, repetitive controller, and iterative learning control (ILC) on a dSPACE real-time system for precise piston trajectory control.",
 			"Performed CFD simulations using CONVERGE to complement experiments and inform design iterations."
 		],		
-		imageUrl: "ct-rcem.jpg", // Place this image in /public/images/projects/
+		imageUrl: "ct-rcem.png", // Place this image in /public/images/projects/
 		date: "2021 – Present",
 		collaborators: ["Dr. W. Northrop", "T.E. Murphy Lab"],
 		link: "#" // optional, you can add a link to a publication or PDF if needed
@@ -20,7 +20,7 @@ export const projects = [
 			"Studied plasma-assisted ignition, flame propagation, and combustion dynamics of natural gas under engine-relevant pressure and temperature conditions.",
 			"Utilized high-speed imaging and image processing techniques to visualize ignition kernel development and jet-interaction effects in a pre-chamber configuration."
 		],
-		imageUrl: "cvcc.jpg", // add this image in /public/images/projects/
+		imageUrl: "cvcc.png", // add this image in /public/images/projects/
 		date: "2022 – 2023",
 		collaborators: ["Dr. W. Northrop", "T.E. Murphy Lab"],
 		link: "#"

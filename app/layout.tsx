@@ -8,6 +8,7 @@ import { ThemeToggle } from '@/components/layout/ThemeToggle';
 import { Toaster } from '@/components/ui/sonner';
 import LoadingAnimation from '@/components/common/LoadingAnimation';
 
+
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -22,7 +23,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="en" suppressHydrationWarning data-gramm="false">
 			<head>
 			<link rel="shortcut icon" href="/flask.png" type="image/x-icon" />
 			</head>
