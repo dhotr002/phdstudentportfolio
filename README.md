@@ -23,7 +23,7 @@
 </div>
 
 
-### Professional Portfolio Website for Chemistry Research and Academia
+### Professional Portfolio Website for Academia
 *Modern | Responsive | Interactive*
 
 <div>
