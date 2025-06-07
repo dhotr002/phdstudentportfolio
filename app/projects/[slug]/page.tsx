@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import { projects } from '@/lib/constants';
 import Image from 'next/image';
 
-export async function generateStaticParams() {
+export async function generateStaticParams(): Promise<{ slug: string }[]> {
   return projects.map((project) => ({ slug: project.slug }));
 }
 
