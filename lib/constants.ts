@@ -1,94 +1,90 @@
 export const projects = [
 	{
 		id: 1,
-		title: "Optical Rapid Compression and Expansion Machine (CT-RCEM)",
+		title: "Plasma-assisted pre-chamber combustion",
+    slug: "plasma-prechamber", // used for routing
 		highlights: [
-			"Designed and operated a programmable optical RCEM to study autoignition and ignition-assisted combustion processes, including ammonia-DME blends, spark ignition, pre-chamber combustion, and plasma-assisted ignition.",
-			"Developed and implemented a nonlinear feedforward controller, repetitive controller, and iterative learning control (ILC) on a dSPACE real-time system for precise piston trajectory control.",
-			"Performed CFD simulations using CONVERGE to complement experiments and inform design iterations."
-		],		
+			"Designed and operated an optical RCEM to study homogeneous (compression ignition) and heterogeneous (spark and plasma-assisted) combustion processes of renewable fuels such as natural gas, ammonia, DME.",
+			"Studied nanosecond repetitive pulsed discharges (NRPD) in a pre-chamber in RCEM, CVCC, and single-cylinder engine" ,
+      // "Implemented a nonlinear feedforward controller, repetitive controller, and iterative learning control (ILC) on a dSPACE real-time system for precise piston trajectory control."
+    ],		
 		imageUrl: "ct-rcem.png", // Place this image in /public/images/projects/
 		date: "2021 – Present",
-		collaborators: ["Dr. W. Northrop", "T.E. Murphy Lab"],
-		link: "#" // optional, you can add a link to a publication or PDF if needed
+		collaborators: ["US Department of Energy","Sandia National Laboratories", "Carnegie Mellon University", "Colorado School of Mines"],
+		link: "/projects/plasma-prechamber"
 	},
-	{
-		id: 8,
-		title: "Plasma-Assisted Combustion in a Constant Volume Combustion Chamber (CVCC)",
-		highlights: [
-			"Applied advanced optical diagnostics including multi-species chemiluminescence, Schlieren imaging, optical emission spectroscopy (OES), and laser-induced fluorescence (LIF) to investigate combustion phenomena.",
-			"Studied plasma-assisted ignition, flame propagation, and combustion dynamics of natural gas under engine-relevant pressure and temperature conditions.",
-			"Utilized high-speed imaging and image processing techniques to visualize ignition kernel development and jet-interaction effects in a pre-chamber configuration."
-		],
-		imageUrl: "cvcc.png", // add this image in /public/images/projects/
-		date: "2022 – 2023",
-		collaborators: ["Dr. W. Northrop", "T.E. Murphy Lab"],
-		link: "#"
-	},
-	{
-		id: 13,
-		title: "Plasma-assisted pre-chamber combustion",
-		description: "Developed eco-friendly methods for synthesizing metal nanoparticles using plant extracts as reducing agents, with applications in catalysis and antimicrobial surfaces.",
-		imageUrl: "https://images.pexels.com/photos/2280549/pexels-photo-2280549.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Jan 2023 - Apr 2023",
-		collaborators: ["Dr. A. Chatterjee", "R. Kumar"],
-		link: "#"
-	},
-	{
-		id: 2,
-		title: "Biodegradable Polymers from Agricultural Waste",
-		description: "Researched methods to convert agricultural waste into biodegradable polymers, focusing on improving material properties for packaging applications.",
-		imageUrl: "https://images.pexels.com/photos/3735218/pexels-photo-3735218.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Aug 2022 - Dec 2022",
-		collaborators: ["Prof. S. Banerjee", "M. Singh"],
-		link: "#"
-	},
-	{
-		id: 3,
-		title: "Novel Catalysts for Carbon Dioxide Reduction",
-		description: "Investigated transition metal complexes as catalysts for electrochemical reduction of carbon dioxide to value-added chemicals, contributing to carbon capture utilization strategies.",
-		imageUrl: "https://images.pexels.com/photos/5726837/pexels-photo-5726837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "May 2022 - Aug 2022",
-		collaborators: ["Dr. P. Roy", "N. Das"],
-		link: "#"
-	},
+	// {
+	// 	id: 2,
+	// 	title: "Plasma-assisted combustion in a constant volume combustion chamber (CVCC)",
+	// 	highlights: [
+	// 		"Studied the effects of nanosecond repetitive pulsed discharges (NRPD) on ignition kernel development of methane-air mixtures at engine-relevant conditions.",
+  //     "Applied advanced optical diagnostics including multi-species chemiluminescence, Schlieren imaging, and optical emission spectroscopy (OES) to investigate NRPD ignition."
+	// 	],
+	// 	imageUrl: "cvcc.png", // add this image in /public/images/projects/
+	// 	date: "2022 – Present",
+	// 	collaborators: ["Sandia National Laboratories"],
+	// 	link: "#"
+	// },
+	// {
+	// 	id: 3,
+	// 	title: "Pre-chamber assisted combustion in a heavy-duty natural gas engine",
+	// 	highlights: ["Explored the effects of varying pre-chamber geometry on combustion dynamics of natural gas combustion at dilute conditions.",
+  //     "Investigated the effects of NRPD on pre-chamber assisted combustion."
+  //   ],
+  //   imageUrl: "snl-engine.jpg", // add this image in /public/images/projects/
+	// 	date: "Sep 2023 - Aug 2024",
+	// 	collaborators: ["US Department of Energy","Sandia National Laboratories", "Carnegie Mellon University", "Colorado School of Mines"],
+	// 	link: "#"
+	// },
 	{
 		id: 4,
-		title: "Water Purification using Modified Activated Carbon",
-		description: "Developed modified activated carbon materials for efficient removal of heavy metals and organic pollutants from wastewater, with potential applications in rural water treatment.",
-		imageUrl: "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Jan 2022 - Apr 2022",
-		collaborators: ["Prof. D. Sharma", "K. Patel"],
-		link: "#"
+    title: 'NRPD ignition of ammonia mixtures in an active pre-chamber',
+    slug: "nrpd-ammonia-prechamber",
+
+    highlights: ["Set up a new experimental platform to study plasma-assisted ammonia combustion in an optical pre-chamber.",
+      "Investigated the effects of nanosecond repetitive pulsed discharges on ammonia cracking and ignition using advanced optical and laser diagnostics (OH* chemiluminescence and NH-PLIF)."
+    ],
+    // description: "Researched methods to convert agricultural waste into biodegradable polymers, focusing on improving material properties for packaging applications.",
+		imageUrl: "kaust-cvcc.jpg", // add this image in /public/images/projects/
+		date: "Dec 2024 - Present",
+		collaborators: ["King Abdullah University of Science and Technology (KAUST)"],
+    link: "/projects/nrpd-ammonia-prechamber",
+
 	},
 	{
 		id: 5,
-		title: "Medicinal Properties of Traditional Herbal Extracts",
-		description: "Analyzed chemical composition and medicinal properties of traditional herbal extracts from Eastern India, identifying potential lead compounds for pharmaceutical development.",
-		imageUrl: "https://images.pexels.com/photos/906150/pexels-photo-906150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "Sep 2021 - Dec 2021",
-		collaborators: ["Dr. M. Gupta", "S. Biswas"],
-		link: "#"
+		title: "Turbulent jet ignition in a fully ammonia-fueled engine",
+    slug: "pc-ammonia",
+    highlights: ["Demonstrated successful pre-chamber operation in a fully ammonia-fueled, single cylinder engine.",
+      "Understanding the effects of pre-chamber geometry on combustion dynamics and emissions.",
+    ],
+    // description: "Investigated transition metal complexes as catalysts for electrochemical reduction of carbon dioxide to value-added chemicals, contributing to carbon capture utilization strategies.",
+		imageUrl: "umn-engine.jpg", // add this image in /public/images/projects/
+		date: "Dec 2024 - Present",
+		collaborators: ["U.S. State of Minnesota Session Law"],
+		link: "/projects/pc-ammonia"
 	},
 	{
-		id: 6,
-		title: "Soil Quality Analysis in Agricultural Regions",
-		description: "Conducted comprehensive chemical analysis of soil samples from various agricultural regions in West Bengal to assess nutrient content and pollution levels.",
-		imageUrl: "https://images.pexels.com/photos/5472310/pexels-photo-5472310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-		date: "May 2021 - Aug 2021",
-		collaborators: ["Dr. A. Krishnan", "T. Ghosh"],
-		link: "#"
-	}
+		id: 41,
+		title: "Breakdown and instability analysis of low viscosity jets",
+    slug: "jets",
+		highlights: ["Investigated instability and breakdown of low-viscosity jets under external forcing using hotwire anemometry and flow visualization (PIV and LIF) to enable design of controlled mixing systems and open-loop flow control strategies",],
+    // description: "Developed modified activated carbon materials for efficient removal of heavy metals and organic pollutants from wastewater, with potential applications in rural water treatment.",
+		imageUrl: "umn-jet.jpeg", // add this image in /public/images/projects/
+		date: "Nov 2018 - Dec 2020",
+		collaborators: ["Multiphase Transport Phenomena Lab"],
+		link: "/projects/jets"
+	},
 ];
 
 export const contactInfo = {
-	email: "email@example.com",
-	phone: "+91 98765 43210",
-	address: "Kolkata, West Bengal, India",
+	email: "dhotr002 [at] umn [dot] edu",
+	phone: "+1 (612) 391-6170",
+	address: "Minneapolis, MN, USA",
 	socialMedia: {
-		linkedin: "https://linkedin.com",
+		linkedin: "https://www.linkedin.com/in/akashdhotre/",
 		twitter: "https://twitter.com",
-		github: "https://github.com"
+		github: "https://github.com/dhotr002"
 	}
 };
 

@@ -10,10 +10,27 @@ interface CVButtonProps {
 }
 
 export default function CVButton({ className, variant = 'default' }: CVButtonProps) {
+  // const handleDownload = () => {
+  //   // In a real application, this would be a link to the actual CV file
+  //   // For this demo, we're just showing the functionality
+  //   alert('CV download would start here with the actual file');
+  // };
+
+  // return (
+  //   <Button 
+  //     variant={variant}
+  //     className={cn('group', className)}
+  //     onClick={handleDownload}
+  //   >
+  //     <span className="mr-2">Download CV</span>
+  //     <Download size={16} className="group-hover:translate-y-0.5 transition-transform" />
+  //   </Button>
+  // );
   const handleDownload = () => {
-    // In a real application, this would be a link to the actual CV file
-    // For this demo, we're just showing the functionality
-    alert('CV download would start here with the actual file');
+    const confirmed = window.confirm('Do you want to download the CV?');
+    if (confirmed) {
+      window.location.href = '/cv.pdf'; // Make sure cv.pdf is in your public folder
+    }
   };
 
   return (
@@ -26,4 +43,5 @@ export default function CVButton({ className, variant = 'default' }: CVButtonPro
       <Download size={16} className="group-hover:translate-y-0.5 transition-transform" />
     </Button>
   );
+
 }

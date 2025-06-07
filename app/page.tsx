@@ -31,7 +31,7 @@ export default function Home() {
           <div className="bg-card rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold mb-4">Education</h3>
             <p className="text-muted-foreground mb-6">
-              Discover my academic journey through chemistry, from undergraduate studies to my current M.Sc. program.
+              Discover my academic journey, from undergrad to PhD.
             </p>
             <Link 
               href="/education" 
@@ -44,7 +44,7 @@ export default function Home() {
           <div className="bg-card rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-bold mb-4">Research Projects</h3>
             <p className="text-muted-foreground mb-6">
-              Explore my research work in sustainable chemistry, material science, and environmental applications.
+              Explore my research work in combustion and sustainable energy applications.
             </p>
             <Link 
               href="/projects" 
@@ -70,7 +70,7 @@ export default function Home() {
         
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-            Looking for my full credentials? Download my comprehensive CV to learn more about my academic achievements, research experience, and professional skills.
+            {/* Looking . */}
           </p>
           <CVButton variant="outline" />
         </div>

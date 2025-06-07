@@ -117,10 +117,10 @@ const educationData = [
     period: 'Jan 2021 - Present',
     description: 'Specializing in thermal sciences, focusing on advanced combustion technologies and low-temperature plasma processes.',
     achievements: [
-      'List achievements here',
-      'List achievements here',
-      'List achievements here'
-    ]
+    'Developed and set-up multiple experimental facilities for combustion and plasma research',
+    'Published/presented 10+ papers at SAE, ASME, APS, Combustion Institute, and RSI',
+    'Received 2023 Mestenhauser Student Award for Excellence in Campus Internationalization'
+]
   },
   {
     id: 2,
@@ -130,9 +130,9 @@ const educationData = [
     period: 'Sep 2018 - Dec 2020',
     description: 'Specialized in fluid mechanics and thermodynamics, with a focus on hydrodynamic instabilities in a viscous jet.',
     achievements: [
-      'List achievements here',
-      'List achievements here',
-      'List achievements here'
+      'Published in Physical Review Fluids',
+      'Presented at two APS Division of Fluid Dynamics conferences',
+      'Designed a Taylor-Couette facility and performed flow visualization with PIV and LIF'
     ]
   },
   {
@@ -143,9 +143,10 @@ const educationData = [
     period: '2014 - 2018',
     description: 'Focused on computational fluid dynamics and heat transfer.',
     achievements: [
-      'List achievements here',
-      'List achievements here',
-      'List achievements here'
+    'Part of the Formula student team; contributed to vehicle design and testing',
+    'Won Best Technical Paper Presentation Award (2018)',
+    'Conducted CFD studies of hypersonic inlet designs and isolator configurations',
+    'Co-editor of college magazine and Mechanical Engineering newsletter'
     ]
   }
 ];

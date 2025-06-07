@@ -61,7 +61,7 @@ export default function Hero() {
           variants={item}
           className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto"
         >
-          Catchy one-liner.
+          Changing the world, one experiment at a time.
         </motion.p>
 
         <motion.div

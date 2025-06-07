@@ -24,7 +24,7 @@ export default function Footer() {
 								<span className="sr-only">Twitter</span>
 							</Link>
 							<Link
-								href="https://github.com"
+								href="https://github.com/dhotr002"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-muted-foreground hover:text-primary transition-colors"
@@ -33,7 +33,7 @@ export default function Footer() {
 								<span className="sr-only">GitHub</span>
 							</Link>
 							<Link
-								href="https://linkedin.com"
+								href="https://www.linkedin.com/in/akashdhotre/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="text-muted-foreground hover:text-primary transition-colors"
@@ -42,7 +42,7 @@ export default function Footer() {
 								<span className="sr-only">LinkedIn</span>
 							</Link>
 							<Link
-								href="mailto:Jhon Doe.karmaker@example.com"
+								href="mailto:dhotr002@umn.edu"
 								className="text-muted-foreground hover:text-primary transition-colors"
 							>
 								<Mail size={20} />
@@ -83,7 +83,7 @@ export default function Footer() {
 									href="/projects"
 									className="text-sm text-muted-foreground hover:text-primary transition-colors"
 								>
-									Projects
+									Research
 								</Link>
 							</li>
 							<li>
@@ -104,7 +104,7 @@ export default function Footer() {
 							
 						</p>
 						<p className="text-sm text-muted-foreground mb-2">
-							dhotr002@umn.edu
+							dhotr002 [at] umn [dot] edu
 						</p>
 						<p className="text-sm text-muted-foreground">
 							Ph: +1 (612)-391-6170 

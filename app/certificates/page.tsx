@@ -13,8 +13,8 @@ export default function CertificatesPage() {
 		<div className="pt-24">
 			<SectionContainer>
 				<PageHeader
-					title="Certificates"
-					description="Academic and professional certifications showcasing my expertise and continuous learning."
+					title="Awards & Honors"
+					description="Academic and professional awards showcasing my expertise and continuous learning."
 				/>
 
 				<CertificateGrid />

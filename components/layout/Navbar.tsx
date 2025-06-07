@@ -14,7 +14,7 @@ const navigationItems = [
   { name: 'Teaching', href: '/teaching' },
   { name: 'Publications', href: '/publications' },
   { name: 'Awards', href: '/certificates' },
-  { name: 'Service', href: '/service' },
+  { name: 'Outreach', href: '/service' },
   { name: 'Contact', href: '/contact' },
 ];
 

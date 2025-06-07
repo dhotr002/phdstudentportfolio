@@ -24,7 +24,7 @@ export default function ProjectsPage() {
 						<ProjectCard
 							key={project.id}
 							title={project.title}
-							description={project.description}
+							// description={project.description}
 							highlights={project.highlights}
 							imageUrl={project.imageUrl}
 							date={project.date}
