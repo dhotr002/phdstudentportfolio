@@ -7,6 +7,9 @@ import AnimatedBackground from '@/components/common/AnimatedBackground';
 import CVButton from '@/components/common/CVButton';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import AboutPreview from "@/components/home/AboutPreview";
+import Collaborators from '@/components/home/Collaborators';
+
 
 export default function Home() {
   return (
@@ -18,7 +21,9 @@ export default function Home() {
       <Hero />
       
       <SectionContainer id="about" className="bg-background">
-        <AboutContent />
+        {/* <AboutContent /> */}
+          <AboutPreview />
+          <Collaborators />
       </SectionContainer>
       
       <SectionContainer className="bg-muted/30">
