@@ -16,8 +16,8 @@ export default function AboutContent() {
 			>
 				<div className="relative rounded-lg overflow-hidden shadow-xl">
 					<Image
-						src="https://media.licdn.com/dms/image/v2/D4D03AQGlBYa-32mWAQ/profile-displayphoto-shrink_800_800/B4DZaDo9sEGcAg-/0/1745965276185?e=1753315200&v=beta&t=ioDPR1EBmqt9Zylp_e1zpN97_c1JvR4M6JYAcosvldM"
-						alt="Akash Dhotre in lab"
+						src="saephoto.jpg"
+						alt="Akash Dhotre photo"
 						width={600}
 						height={800}
 						className="object-cover w-full h-[500px]"
@@ -74,4 +74,6 @@ export default function AboutContent() {
 			</motion.div>
 		</div>
 	);
+	
 }
+

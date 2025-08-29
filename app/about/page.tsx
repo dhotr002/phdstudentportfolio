@@ -2,6 +2,8 @@ import { Metadata } from 'next';
 import AboutContent from '@/components/about/AboutContent';
 import SectionContainer from '@/components/common/SectionContainer';
 import PageHeader from '@/components/common/PageHeader';
+import Skills from "@/components/skills/Skills";
+import Collaborators from '@/components/home/Collaborators';
 
 export const metadata: Metadata = {
   title: 'About | Akash Dhotre',
@@ -18,7 +20,10 @@ export default function AboutPage() {
         />
 
         <AboutContent />
+        <Skills />
+        <Collaborators />
       </SectionContainer>
     </div>
   );
 }
+
